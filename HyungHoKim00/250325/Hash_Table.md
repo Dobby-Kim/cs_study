@@ -15,5 +15,39 @@ Collision을 최소화하는 방향으로 생성해야 하나, 무조건 1:1로 
 Java에는 HashMap, HashSet이 있다. HashSet은 HashMap의 Key만 사용하는 형태다.
 
 ```java
+public class HashMap<K, V> {
+    private LinkedList<Node<K, V>>[] nodes;
+    private int M = nodes.length;
+
+    V get(K key) {
+        int hash = key.hashCode() % M;
+        for(Node<K, V> node : nodes[hash]) {
+            if(node.hash == hash && (node.key == key || node.key.equals(key))) {
+                return node.value;
+            }
+        }
+        return null;
+    }
+
+    void put(K key, V value) {
+        int hash = key.hashCode() % M;
+        if(nodes[hash] == null) {
+            nodes[hash] = new LinkedList<>();
+        }
+        nodes[hash].add(new Node<>(key, value, hash));
+    }
+
+    static class Node<K, V> {
+        K key;
+        V value;
+        int hash;
+
+        public Node(K key, V value, int hash) {
+            this.key = key;
+            this.value = value;
+            this.hash = hash;
+        }
+    }
+}
 
 ```
