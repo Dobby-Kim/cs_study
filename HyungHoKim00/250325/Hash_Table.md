@@ -14,6 +14,8 @@ Collision을 최소화하는 방향으로 생성해야 하나, 무조건 1:1로 
 ### 해시를 이용한 자료구조
 Java에는 HashMap, HashSet이 있다. HashSet은 HashMap의 Key만 사용하는 형태다.
 
+아래는 Linked List를 활용한 분리 연결법으로 구현한 HashMap이다.
+
 ```java
 public class HashMap<K, V> {
     private LinkedList<Node<K, V>>[] nodes;
