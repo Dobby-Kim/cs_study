@@ -6,21 +6,20 @@
 ```java
 public class Array {
     int[] array;
-    int size;
     
     int get(int index) {
         return array[index];
     }
 
     void insert(int index, int value) {
-        for(int i = size - 1; i > index; i--) {
+        for(int i = arrays.length - 1; i > index; i--) {
             array[i] = array[i - 1];
         }
         array[index] = value;
     }
     
     void delete(int index) {
-        for(int i = index; i < size - 1; i++) {
+        for(int i = index; i < arrays.length - 1; i++) {
             array[i] = array[i + 1];
         }
     }
