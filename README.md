@@ -1,4 +1,4 @@
-# 매일 CS 스터디
+ # 매일 CS 스터디
 <br>
 
 ## 날짜별 주제
@@ -7,7 +7,7 @@
 | 25. 03. 25 | 1. Array vs Linked List <br> 2. Stack and Queue <br> 3. Hash Table |    |
 | 25. 03. 26 | 4. Tree <br> 5. Binary Tree <br> 6. RB Tree                        |    |
 | 25. 03. 27 | 7. Graph                                                           |    |
-| 25. 03. 28 | 미정                                                                |    |
+| 25. 03. 28 | 8. GET, POST 방식의 차이점 <br> 9. TCP 3-way-handshake <br> 10.TCP 와 UDP 의 차이점|    |
 | 25. 03. 29 | 미정                                                                |    |
 
 
