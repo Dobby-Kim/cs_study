@@ -8,7 +8,7 @@
 | 25. 03. 26 | 4. Tree <br> 5. Binary Tree <br> 6. RB Tree                        |    |
 | 25. 03. 27 | 7. Graph                                                           |    |
 | 25. 03. 28 | 8. GET, POST 방식의 차이점 <br> 9. TCP 3-way-handshake <br> 10.TCP 와 UDP 의 차이점|    |
-| 25. 03. 29 | 미정                                                                |    |
+| 25. 03. 29 | 11. 웹 통신의 큰 흐름                                                  |    |
 
 
 ## 💡 자료구조
@@ -47,10 +47,15 @@
 - GET, POST 방식의 차이점
 - TCP 3-way-handshake
 - TCP 와 UDP 의 차이점
+- 웹 통신의 큰 흐름: https://www.naver.com/ 을 접속할 때 일어나는 일
+- RESTful이란
 - HTTP 와 HTTPS 의 차이점
     - HTTP 의 문제점들
+    - HTTPS에 대해서 설명하고 SSL Handshake에 대해서 설명.
+- CORS란
 - DNS round robin 방식
-- 웹 통신의 큰 흐름
+- 웹 서버 소프트웨어(Apache, Nginx)는 OSI 7계층 중 어디서 작동하는지
+- 웹 서버 소프트웨어(Apache, Nginx)의 서버 간 라우팅 기능은 OSI 7계층 중 어디서 작동하는지
 
 
 ## 💡 운영체제
